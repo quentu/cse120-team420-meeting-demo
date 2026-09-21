@@ -6,14 +6,14 @@ I created simple dummy data and API to get an idea of what type of functionality
 
 ## Getting started
 
-### Create Virtual Env':'
+### Create Virtual Env:
 
 ```bash
 python -m venv .venv
 source .venv/bin/activate
 ```
 
-### Install Dependencies':'
+### Install Dependencies:
 
 ```bash
 pip install -r requirements.txt
@@ -25,4 +25,4 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8420
 ```
 
-Access at ["http://localhost:8420/docs"]
+Access at http://localhost:8420/docs
